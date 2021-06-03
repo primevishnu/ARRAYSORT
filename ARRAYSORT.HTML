@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="array.css">
+    <title>ArraySort</title>
+    
+<script>
+function myFunction() {
+    var inputArray = [];
+    var size = 5;
+
+    for (var i = 0; i < size; i++) {
+
+        inputArray[i] = prompt('Enter Element ' + (i + 1));
+    }
+    document.getElementById("demo").innerHTML = inputArray.sort();
+}
+</script>
+</head>
+
+<body>
+    <div>
+        <h2>ENTER THE VALUES OF ARRAY : <button onclick="myFunction()">Submit</button> </h3>
+            <h2>THE SORTED ARRAY IS : <h3 id="demo"></h3></h2>
+    </div>       
+    <footer>18711A0585</footer>
+</body>
+
+</html>
+
